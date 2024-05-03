@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'ACKeyboard'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of ACKeyboard.'
+  s.summary          = 'A simple library for handling keyboard when show and hide, get keyboard frame size when show.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,16 +21,17 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/Agus Cahyono/ACKeyboard'
+  s.homepage         = 'https://github.com/balitax/ACKeyboard'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Agus Cahyono' => 'cahyo.mamen@gmail.com' }
-  s.source           = { :git => 'https://github.com/Agus Cahyono/ACKeyboard.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/balitax/ACKeyboard.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '12.0'
 
   s.source_files = 'ACKeyboard/Classes/**/*'
+  s.swift_version = '4.2'
   
   # s.resource_bundles = {
   #   'ACKeyboard' => ['ACKeyboard/Assets/*.png']

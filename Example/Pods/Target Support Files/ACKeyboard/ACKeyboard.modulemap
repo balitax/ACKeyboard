@@ -1,0 +1,6 @@
+framework module ACKeyboard {
+  umbrella header "ACKeyboard-umbrella.h"
+
+  export *
+  module * { export * }
+}
