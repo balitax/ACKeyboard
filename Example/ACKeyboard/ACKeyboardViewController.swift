@@ -117,6 +117,7 @@ class ACKeyboardViewController: UIViewController {
             .on(event: .willHide) { [weak self] option in
                 self?.resetLayoutSubmitButton()
             }
+            .autoHideKeyboard(onTap: view)
             .start()
     }
 }
